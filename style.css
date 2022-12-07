@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100mvh;
+}
+
+section {
+    background-color: rgb(113, 136, 185);
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 2px rgb(113, 136, 185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: rgb(163, 55, 64);
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    color:aliceblue;
+    font-weight: bold;
+    
+}
+button:hover {
+    background-color: rgb(190, 106, 106);
+}
+
+h1 {
+    background-image:linear-gradient(to bottom left, #553c9a, #ee4b2b);
+    font-size: 70px;
+    font-weight: 600;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h2 {
+    font-size:50px;
+    color:aliceblue;
+
+}
+
+.player-score, .computer-score {
+    font-size:30px;
+}
+
+.p {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
